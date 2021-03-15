@@ -16,7 +16,7 @@ h2 {
 }
 
 .carousel {
-	padding: 20px;
+	/* padding: 20px; */
 	perspective: 700px;
 	overflow: hidden;
 	display: flex;

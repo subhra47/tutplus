@@ -1,14 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Dosis:600,800");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap');
 
 * {
 	box-sizing: border-box;
 }
 
-
 .site-logo {
 	display: flex;
 	align-items: center;
 	transform: translateZ(0);
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 [id="logo"] {

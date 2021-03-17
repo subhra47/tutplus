@@ -1,6 +1,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
 <link rel="stylesheet" href="carausel.css">
 <link rel="stylesheet" href="logo.css">
+<link rel="stylesheet" href="flat-slider.css">
 
 <div style="display: flex; position: absolute; left: 0px;top: 0px; height: 50px; right: 0px; padding: 20px;">
     <div style="flex: 1; display: flex; height: 100px; position: relative; top: -20px; padding-left: 50px;">
@@ -136,6 +137,61 @@
                 style="background: white; width: 105px;height: 105px; border-radius: 105px; text-align: center; padding-top: 50px;padding: 5px;">
                 <div style="font-size: 12px;">Top</div>
                 <div style="font-size: 25px;">10</div>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; flex: 1; height: 400px;">
+        <div
+            style="display: flex; flex: 1; flex-direction: column; padding: 20px; align-content: center;align-items: center;">
+            <div style="font-size: 20px; padding-bottom: 20px;">CURRENT AFFIRS TODAY</div>
+            <div style="display: flex; width: 100%;">
+                <div id="slider" style="flex: 1;">
+                    <input type="radio" name="slider" id="s1">
+                    <input type="radio" name="slider" id="s2">
+                    <input type="radio" name="slider" id="s3" checked>
+                    <input type="radio" name="slider" id="s4">
+                    <input type="radio" name="slider" id="s5">
+                    <label for="s1" id="slide1"></label>
+                    <label for="s2" id="slide2"></label>
+                    <label for="s3" id="slide3"></label>
+                    <label for="s4" id="slide4"></label>
+                    <label for="s5" id="slide5"></label>
+                </div>
+            </div>
+            <div style="font-size: 20px; padding-bottom: 20px;">MATHS TODAY</div>
+            <div style="display: flex; width: 100%;">
+                <div id="slider2" style="flex: 1;">
+                    <input type="radio" name="slider2" id="s100">
+                    <input type="radio" name="slider2" id="s200">
+                    <input type="radio" name="slider2" id="s300" checked>
+                    <input type="radio" name="slider2" id="s400">
+                    <input type="radio" name="slider2" id="s500">
+                    <label for="s100" id="slide100"></label>
+                    <label for="s200" id="slide200"></label>
+                    <label for="s300" id="slide300"></label>
+                    <label for="s400" id="slide400"></label>
+                    <label for="s500" id="slide500"></label>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; flex: 1;">
+            <div
+                style="display: flex; flex: 1; flex-direction: column; padding: 20px; align-content: center;align-items: center;">
+                <div style="font-size: 20px; padding-bottom: 20px;">LATEST GOVT JOBS</div>
+                <div style="display: flex; flex: 1; width: 100%;">
+                    <div id="slider1" style="flex: 1;">
+                        <input type="radio" name="slider1" id="s10">
+                        <input type="radio" name="slider1" id="s20">
+                        <input type="radio" name="slider1" id="s30" checked>
+                        <input type="radio" name="slider1" id="s40">
+                        <input type="radio" name="slider1" id="s50">
+                        <label for="s10" id="slide10"></label>
+                        <label for="s20" id="slide20"></label>
+                        <label for="s30" id="slide30"></label>
+                        <label for="s40" id="slide40"></label>
+                        <label for="s50" id="slide50"></label>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
